@@ -1,0 +1,427 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*STYLE*/
+.contacts {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 25px;
+}
+
+.contact_text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #5D5E62;
+    min-width: 200px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.contact_text:hover {
+    opacity: .6;
+    text-decoration: underline;
+}
+
+.contact_text:active {
+    opacity: .8;
+}
+
+.contact_text_right {
+    margin-left: 15%;
+
+}
+
+.red_line {
+    height: 35px;
+    width: 100%;
+    background: #6C2D2C;
+}
+
+.banner_wide {
+    height: 428px;
+    background-image: url("../images/topBanner.png");
+}
+
+
+.banner_text_large {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 63%;
+}
+
+.banner_tall {
+    background-image: url("../images/Rectangle%2014.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 40%;
+}
+
+.main_div {
+    margin: 0 5% 5%;
+}
+
+.corzina {
+    position: relative;
+    top: 10px;
+}
+
+nav {
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width: 8.4%;
+    padding: 0.5% 3%;
+    background: #6C2D2C;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button:active {
+    opacity: .9;
+}
+
+.main_title {
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #6C2D2C;
+    margin: 2%;
+}
+
+.page_title {
+    text-align: left;
+}
+
+.many_blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.two_blocks {
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.space_around {
+    justify-content: space-around;
+}
+
+.big_block {
+    width: 495px;
+    height: 495px;
+    background-size: cover;
+    margin-top: 55px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.block_img {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    bottom: 495px;
+    z-index: -1;
+}
+
+
+.tint {
+    display: flex;
+    align-items: flex-end;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(180deg, rgba(40, 42, 49, 0) 63.54%, rgba(36, 37, 43, 0.75) 86.98%);
+    border-radius: 10px;
+}
+
+.text_white {
+    margin: 0 0 8% 5%;
+    font-weight: 700;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.text24 {
+    font-size: 24px;
+}
+
+.text36 {
+    font-size: 36px;
+}
+
+.text36_2 {
+    font-size: 36px;
+    margin:  5% 0 8% 5%;
+}
+
+.grey_bar {
+    height: 105px;
+    width: 100%;
+    background: #42313A;
+    display: flex;
+    align-content: center;
+}
+
+.white {
+    color: #fff;
+}
+
+.brick_line {
+    background: #C0978D;
+    height: 70px;
+    width: 100%;
+}
+
+.height35 {
+    height: 35px;
+}
+
+.text_title_one {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.main_text {
+    margin-left: 7.5%;
+    margin-right: 5%;
+    font-size: 18px;
+    width: 50%;
+}
+
+.span_red {
+    color: #972426;
+}
+
+.text_title_second {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.item_card {
+    border: 1px solid #CE7964;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 316px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin: 0 15px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_text {
+    padding: 0 18px;
+    line-height: 24px;
+    align-self: flex-start;
+}
+
+.no_margin_left{
+    margin-left: 0;
+}
+
+
+.card_img {
+    height: 236px;
+    width: 158px;
+    margin: 15px;
+}
+
+.arenda_img {
+    margin: 50px 0 0 50px;
+    Width:
+        600px;
+    Height:
+        930px;
+}
+
+.card_title {
+    font-weight: 700;
+}
+
+.card_status {
+    font-weight: 700;
+    color: #CE7964;
+}
+
+.item_card p {
+    margin-top: 7px;
+}
+
+.order_button{
+     background: #CE7964;
+    padding: 8px 20px;
+    width: 260px;
+}
+
+.arenda_button {
+    position: relative;
+    top: 16.5px;
+    left: 10px;
+    background: #CE7964;
+    padding: 8px 20px;
+    width: 146px;
+    align-self: flex-end;
+    margin-right: 25px;
+}
+
+.grey {
+    color: #5D5E62;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+.rent_dates {
+    border: 1px solid #5D5E62;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 40%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.in_line_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    max-width: 550px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 25px 0 15px;
+    display: flex;
+    border: 1px solid #5D5E62;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    margin-right: 10%;
+    position: relative;
+    bottom: 4px;
+}
+
+.in_line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.half_bar {
+    width: 40%;
+}
+
+.table {
+    display: block;
+}
+
+.table_bar {
+    width: 100%;
+    background: #DDBC95;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table_header {
+    width: inherit;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: inherit;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+
+.table_bar1 {
+    background-color: #fff;
+    border: 1px solid #DDBC95;
+
+}
+
+.table p {}
+
+.align_text_center {
+    text-align: center;
+}
+
+.gap {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.no_bottom_margin {
+    margin-bottom: 0;
+}
+
+.no_top_margin {
+    margin-top: 0;
+}
+
+.bottom_nav {
+    font-size: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom_nav a {
+    color: #6C2D2C;
+    font-weight: 700;
+    margin: 0 25px;
+}
+
+.bottom_nav a:hover {
+    color: #CE7964;
+}
+
+.bottom_nav a:active {
+    opacity: .6;
+}
+
+.order_text{
+    max-width: 520px;
+}

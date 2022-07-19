@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Редактирование профиля</title>
+</head>
+<body class="page">
+	<?xml version="1.0" encoding="UTF-8"?>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol viewbox="0 0 512 512" id="photo" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32 58V38c0-3.3 2.7-6 6-6h116c3.3 0 6 2.7 6 6v0c0 3.3-2.7 6-6 6H38c-3.3 0-6-2.7-6-6zm344 230c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88zm-120 0c0-17.6 14.4-32 32-32 8.8 0 16-7.2 16-16s-7.2-16-16-16c-35.3 0-64 28.7-64 64 0 8.8 7.2 16 16 16s16-7.2 16-16zM512 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h136l33.6-44.8C226.7 39.1 240.9 32 256 32h208c26.5 0 48 21.5 48 48zM224 96h240c5.6 0 11 1 16 2.7V80c0-8.8-7.2-16-16-16H256c-5 0-9.8 2.4-12.8 6.4L224 96zm256 48c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v288c0 8.8 7.2 16 16 16h416c8.8 0 16-7.2 16-16V144z"/>
+        </symbol>
+    </svg>
+	<header class="header">
+		<div class="wrap">
+			<div class="header__inner">
+				<a class="header__logo logo" href="">
+					<div class="logo__text">Service "Куратор"</div>
+				</a>
+				<div class="header__line">
+					<a class="header__name" href>Перевозчиков</a>
+					<a class="header__logout" href>Выход</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<div class="wrap">
+			<div class="nav__inner">
+				<a class="nav__link" href="">Мои группы</a>
+				<a class="nav__link nav__reqest--new" href="">События</a>
+				<a class="nav__link" href>Студенты</a>
+			</div>
+		</div>
+	</nav>
+	<div class="operation profile">
+		<div class="wrap">
+			<div class="operation__inner">
+				<div class="operation__header">
+					<h1 class="operation__title title--medium">Редактировать профиль</h1>
+					<a class="operation__link" href>Вернуться к профилю</a>
+				</div>
+				<div class="operation__body">
+					<form class="operation__form profile__form" method="POST" action>
+						<div class="operation_block">
+							<div class="operation__line">
+								<input class="operation__field field profile__field" type="text" name="surname" placeholder="ФИО">
+								<input class="operation__field field profile__field" type="text" name="tel" placeholder="Номер телефона">
+							</div>
+							<div class="operation__line">
+								<input class="operation__field field profile__field" type="text" name="mail" placeholder="E-mail">
+							</div>
+						</div>
+						<div class="operation_block">
+							<div class="operation__line">
+								<input class="operation__field field profile__field" type="text" name="password1" placeholder="Пароль">
+							</div>
+							<div class="operation__line">
+								<input class="operation__field field profile__field" type="text" name="password2" placeholder="Подтверждение пароля">
+							</div>
+							<div class="operation__line">
+								<div class="operation__load-file">
+									<label class="operation__load-file-text" for="file-img">
+										Загрузить фото
+										<svg class="icon icon-photo operation__svg">
+											<use xlink:href="#photo"/>
+										</svg>
+									</label>
+									<a class="operation__link" href>
+										<span class="operation__file-name">news_photo.jpg</span>
+									</a>
+									<input class="operation__load-file-input" type="file" name="file-img" id="file-img">
+								</div>
+							</div>
+						</div>
+						<div class="operation__bottom">
+							<button class="button button--common operation__buttom">Сохранить</button>
+						</div>
+					</form>
+					<div class="operation__content">
+						<div class="operation__avatar">
+							<img src="img/profile.png" alt="profile">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="./js/skript.js"></script>
+</body>
+</html>

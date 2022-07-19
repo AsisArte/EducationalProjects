@@ -1,0 +1,300 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*STYLE*/
+.contacts {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 25px;
+}
+
+.contact_text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #5D5E62;
+    min-width: 200px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.contact_text:hover {
+    opacity: .6;
+    text-decoration: underline;
+}
+
+.contact_text:active {
+    opacity: .8;
+}
+
+.contact_text_right {
+    margin-left: 15%;
+
+}
+.red_line {
+    height: 35px;
+    width: 100%;
+    background: #972426;
+}
+
+.banner_wide {
+    height: 428px;
+    background-image: url("../img/widebanner.jpg");
+}
+
+
+.banner_text_large {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 63%;
+}
+
+.banner_tall{
+        background-image: url("../img/tallbanner.jpg");
+        background-size: cover;
+        height: 1000px;
+        width: 40%;
+}
+
+.main_div {
+    margin: 0 5% 5%;
+}
+
+.corzina {
+    position: relative;
+    top: 10px;
+}
+
+nav {
+    position: relative;
+    bottom: 25px;
+
+}
+
+.button {
+    padding: 0.5% 3%;
+    background: #972426;
+    border-radius: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button:active {
+    opacity: .9;
+}
+
+.main_title {
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    color: #972426;
+    margin: 2%;
+}
+
+.page_title{
+    text-align: left;
+}
+
+.many_blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     margin-top: 5%;
+}
+.two_blocks{
+    flex-wrap: nowrap;
+  align-items:  center;
+
+}
+.space_around{
+  justify-content: space-around;  
+}
+
+.big_block {
+    width: 484px;
+    height: 484px;
+    background-size: cover;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.busicle_img {
+    background-image: url("../img/busecle.png");
+}
+
+.turism_img {
+    background-image: url("../img/turism.png");
+}
+
+.snowboard_img {
+    background-image: url("../img/snowboard.png");
+}
+
+.tint {
+    display: flex;
+    align-items:   flex-end;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(180deg, rgba(40, 42, 49, 0) 63.54%, rgba(36, 37, 43, 0.75) 86.98%);
+}
+
+.text_white {
+    margin: 3%;
+    font-weight: 700;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.text24 {
+    font-size: 24px;
+}
+
+.text36 {
+    font-size: 36px;
+}
+
+.grey_bar{
+    height: 105px;
+    width: 100%;
+    background: #5D5E62;
+    display: flex;
+    align-content: center;
+}
+
+.white{
+    color:#fff;
+}
+
+.brick_line{
+    background: #C0978D;
+    height: 70px;
+    width: 100%;
+}
+
+.text_title_one{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.main_text{
+ margin-left: 7.5%;
+ font-size: 18px;
+ width: 50%;
+}
+
+.span_red{
+    color: #972426;
+}
+
+.text_title_second{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.item_card{
+    border: 1px solid #5D5E62;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 286px;
+    font-size: 20px;  
+    margin-bottom: 80px;
+    margin: 0 15px 80px;
+}
+
+.card_text{
+ padding: 0 18px;
+}
+
+.card_img{
+    height: 189px;
+    width: : 286px;
+}
+
+.arenda_img{
+    padding:0 40px 0 80px;
+}
+
+.card_title{
+    font-weight: 700;
+}
+
+.card_status{
+    font-weight: 700;
+    color:#5D5E62;
+}
+
+.item_card p {
+    margin-top: 7px;
+}
+
+.arenda_button{
+    position: relative;
+    top: 16.5px;
+    left: 10px;
+    background: #5D5E62;
+    padding: 8px 20px;
+}
+
+.grey{
+    color: #5D5E62;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.rent_dates{
+    border: 1px solid #5D5E62;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 40%;
+    padding: 0 20px ;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column; 
+}
+.input{
+    margin:25px 0 15px;
+    display: flex;
+    border: 1px solid #5D5E62;
+box-sizing: border-box;
+border-radius: 10px;
+ font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    margin-right: 10%;
+    position: relative;
+    bottom: 4px;
+}
+
+.in_line{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+.half_bar{
+    width: 40%;
+}

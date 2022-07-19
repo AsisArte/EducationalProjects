@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Студенты</title>
+</head>
+<body class="page">
+	<?xml version="1.0" encoding="UTF-8"?>
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol viewbox="0 0 1000 1000" id="arrow2" xmlns="http://www.w3.org/2000/svg">
+            <path d="М500 775.4L10 287.2l64.4-62.6L500 650.2l425.6-425.6 64.4 62.6-490 488.2z"/>
+        </symbol>
+    </svg>
+	<header class="header">
+		<div class="wrap">
+			<div class="header__inner">
+				<a class="header__logo logo" href="">
+					<div class="logo__text">Service "Куратор"</div>
+				</a>
+				<div class="header__line">
+					<a class="header__name" href>Перевозчиков</a>
+					<a class="header__logout" href>Выход</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<div class="wrap">
+			<div class="nav__inner">
+				<a class="nav__link" href="">Мои группы</a>
+				<a class="nav__link nav__reqest--new" href="">События</a>
+				<a class="nav__link" href>Студенты</a>
+			</div>
+		</div>
+	</nav>
+		<section class="section events">
+			<div class="wrap">
+				<div class="section__inner">
+					<h1 class="section__title title__big">События</h1>
+					<div class="section__panel panel">
+						<a class="button button--common panel__button" href>Добавить событие</a>
+						<form class="panel__search search" action method="GET">
+							<div class="select-box select search__select">
+								<div class="select-box__current" id="search__select">
+									<div class="select-box__value">Месяц</div>
+									<input type="hidden" name="month" value>
+									<svg class="icon icon-arrow2 select-box__icon">
+										<use xlink:href="#arrow2"/>
+									</svg>
+								</div>
+								<ul class="select-box__list">
+									<div class="select-box__option" data-target="searchSelect">Февраль</div>
+									<div class="select-box__option" data-target="searchSelect">Январь</div>
+									<div class="select-box__option" data-target="searchSelect">milk</div>
+									<div class="select-box__option" data-target="searchSelect">honey</div>
+									<div class="select-box__option" data-target="searchSelect">Раздел</div>
+								</ul>
+							</div>
+							<label class="label">
+								<input class="search__field search__field--auto" type="text" name="name" autocomplete="off" placeholder="Название">
+							</label>
+								<div class="select-box select search__select"></div>
+							<button class="search__button button button--common"></button>
+						</form>
+					</div>
+				<table class="section__table table">
+					<tr class="table__tr">
+						<th class="table__th">Название</th>
+						<th class="table__th">Дата события</th>
+						<th class="table__th">Статус</th>
+						<th class="table__th">Редактировать</th>
+						<th class="table__th">Просмотр</th>
+						<th class="table__th">Удалить</th>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td"><a class="table__link" href>Общая информация об усправляющей компании .doc</a></td>
+						<td class="table__td">12.12.2018</td>
+						<td class="table__td">Закрыт</td>
+						<td class="table__td">
+							<a class="table__edit" href>
+								<svg class="icon icon-edit table-svg">
+									<use xlink:href="#edit"/>
+								</svg>
+							</a>
+						</td>
+						<td class="table__td">
+							<a class="table__view" href>
+								<svg class="icon icon-view table-svg">
+									<use xlink:href="#view"/>
+								</svg>
+							</a>
+						</td>
+						<td class="table__td">
+							<a class="button__delete table__del" href>
+								<svg class="icon icon-del table-svg">
+									<use xlink:href="#del"/>
+								</svg>
+							</a>
+						</td>
+					</tr>
+				</table>
+				<ul class="pagination section__pagination">
+					<li class="pagination__item"><a class="pagination__link" href="#"></a> Предыдущая </li>
+					<li class="pagination__item"><a class="pagination__link" href="#"></a> 1 </li>
+					<li class="pagination__item"><a class="pagination__link" href="#"></a> 2 </li>
+					<li class="pagination__item"><a class="pagination__link" href="#"></a> 3 </li>
+					<li class="pagination__item"><a class="pagination__link" href="#"></a> Следующая </li>
+				</ul>
+			</div>
+		</div>
+</section>	
+	<script type="./js/skript.js"></script>
+</body>
+</html>
